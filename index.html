@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<meta charset="UTF-8">
+  	<meta charset="UTF-8">
       
 		</head>
 		<body>
 
-<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" /> 
 <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Playfair+Display" rel="stylesheet" />
 
 			<style>
@@ -20,13 +19,17 @@
 
 #carrossel { padding: 50px 20px; width: 1200px; }
 #carrossel img { margin: 0px 10px; }
-#carrossel i { cursor: pointer; color: white; font-size: 100px; margin-top: 40px; position: absolute; }
+#carrossel a { cursor: pointer; color: white; font-size: 100px; margin-top: 10px; position: absolute; }
 
 #pa-home { background-color: #f3f9ff; margin: 15px; }
 #pa-home t { color: #fff; font: 100 130px Open Sans; }
 
-#pa-up { background-color: ; padding: 40px 50px; position: fixed; bottom: 0; right: 0;}
-#pa-up i { color: #e85d5d; font-size: 50px; }
+#pa-up { background-color: ; padding: 40px 50px; position: fixed; bottom: 0; right: 0; transform: rotate(90deg) ;
+-webkit-transform: rotate(90deg) ;
+-moz-transform: rotate(90deg) ;
+-o-transform: rotate(90deg) ;
+-ms-transform: rotate(90deg) ; color: #e85d5d; font-size: 50px; z-index: 9999; }
+#pa-up a { color: #e85d5d; text-decoration: none; }
 
 
 .capa-holder1 { background: #5cd9ea; height: 390px; padding-top: 50px; width: 1000px; margin: 80px; box-shadow: 20px 20px 40px rgba(0,0,0,0.1);  }
@@ -116,7 +119,7 @@
 <div id="pa-home">
 <a name="top"></a>
 
-<div id="pa-up"><a href="#top"><i class="ion-chevron-up"></i></a></div>
+<div id="pa-up"><a href="#top">❮</a></div>
 
       <div style="background: #f1e573; padding-top: 70px; padding-bottom: 50px;">
       
@@ -126,7 +129,7 @@
       
       
       <div id="carrossel">
-      <i class="ion-ios-arrow-left" style="margin-left: -60px;"></i>
+      <a style="margin-left: -80px;">❮</a>
       
         <img src="http://i.imgur.com/jLdwSI1.png" />
         <img src="http://i.imgur.com/jLdwSI1.png" />
@@ -135,7 +138,7 @@
         <img src="http://i.imgur.com/jLdwSI1.png" />
         <img src="http://i.imgur.com/jLdwSI1.png" />
         
-      <i class="ion-ios-arrow-right" style="margin-left: 25px;"></i>  
+      <a style="margin-left: 25px;">❯</a>  
       </div></div>
 
 
