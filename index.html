@@ -5,35 +5,31 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
 <html><title>páHOME</title><head>
-  	<meta charset="UTF-8">    
+    <meta charset="UTF-8">    
 		</head><body style="margin: 0px;"><style>
-
       
       
-
-
 #navbar { font: 900 11px open sans; letter-spacing: 1px; color: #fff; text-transform: uppercase; border-top: 4px solid #fff; padding-top: 10px; padding-bottom: 45px; width: 370px; margin-left: 200px; margin-top: -15px; }
 #navbar a { padding-right: 44px; cursor: pointer; }
-
 #carrossel { padding: 50px 20px; width: 1200px; }
 #carrossel img { margin: 0px 10px; }
-#carrossel a { cursor: pointer; color: white; font-size: 100px; margin-top: 10px; position: absolute; }
-
+#carrossel b { cursor: pointer; color: white; font-size: 100px; margin-top: 10px; position: absolute; }
+#carrossel a {  text-decoration: none; }
 #pa-home { background-color: #fff; }
 #pa-home t { color: #fff; font: 100 130px Open Sans; }
-
 .capa-holder1 { background: #5cd9ea; height: 390px; padding-top: 50px; width: 1000px; margin: 80px; box-shadow: 20px 20px 40px rgba(0,0,0,0.1);  }
-
-
 #capa-grande { border: px solid silver; padding: 50px; margin-bottom: 250px; margin-left: -80px;  width: 750px; font: 900 45px Lato; text-transform: uppercase; color: #fff;  }
+
+
 .capa-fora { width: 360px; height: 245px; background: url(http://i.imgur.com/QKFc8tX.png) no-repeat right center;
   transform: skew(0deg, 5deg) ;
 -webkit-transform: skew(0deg, 5deg) ;
 -moz-transform: skew(0deg, 5deg) ;
 -o-transform: skew(0deg, 5deg) ;
 -ms-transform: skew(0deg, 5deg); margin-left: -180px; }
-.roda { -webkit-animation: spin 4s linear infinite; }
 .capa-dentro { width: 180px; height: 245px; background: url(http://i.imgur.com/V2WE5at.png); margin-top: -245px; -webkit-animation: lado 4s linear infinite; }
+
+
 
 .capa-fora:hover { 
   transform: skew(0deg, 5deg) ;
@@ -41,12 +37,13 @@
 -moz-transform: skew(0deg, 5deg) ;
 -o-transform: skew(0deg, 5deg) ;
 -ms-transform: skew(0deg, 5deg); margin-left: -180px;}
-
 #capa-grande:hover .capa-dentro { -webkit-animation: lado2 4s linear infinite; }
 #capa-grande:hover .roda { -webkit-animation: spin2 4s linear infinite;  }
-
 .capa-info1 { text-align: left; float: right; margin-right: -110px; margin-top: 118px; line-height: 110%; }
 .capa-info2 { text-align: right; float: left; margin-right: -110px; margin-top: 118px; line-height: 110%; }
+
+.roda { -webkit-animation: spin 4s linear infinite; }
+
 
 @keyframes spin{
 0%{ transform: rotateY(0deg); }
@@ -57,7 +54,6 @@
 @-webkit-keyframes spin{
 0%{ -webkit-transform: rotateY(0deg); }
 50%{ -webkit-transform:  rotateY(30deg); } }
-
 @keyframes spin2 {
 0%{ transform: rotateY(0deg); }
 50%{ transform:  rotateY(70deg); } }
@@ -67,7 +63,6 @@
 @-webkit-keyframes spin{
 0%{ -webkit-transform: rotateY(0deg); }
 50%{ -webkit-transform:  rotateY(60deg); } }
-
 @keyframes lado{
 0%{ margin-left: 0px; }
 50%{ margin-left: 25px; } }
@@ -77,7 +72,6 @@
 @-webkit-keyframes spin{
 0%{ margin-left: 0px; }
 50%{ margin-left: 30px; } }
-
 @keyframes lado2{
 0%{ margin-left: 0px; }
 50%{ margin-left: 120px; } }
@@ -87,16 +81,12 @@
 @-webkit-keyframes spin{
 0%{ margin-left: 0px; }
 50%{ margin-left: 30px; } }
-
 @-moz-keyframes spin {
 0%{ margin-left: 0px; }
 50%{ margin-left: 30px; } }
 @-webkit-keyframes spin {
 0%{ margin-left: 0px; }
 50%{ margin-left: 30px; } }
-
-
-
 </style><center>
 <div id="pa-home">
 
@@ -108,16 +98,13 @@
       
       
       <div id="carrossel">
-      <a style="margin-left: -80px;">❮</a>
-      
-        <img src="http://i.imgur.com/jLdwSI1.png" />
-        <img src="http://i.imgur.com/jLdwSI1.png" />
-        <img src="http://i.imgur.com/jLdwSI1.png" />
-        <img src="http://i.imgur.com/jLdwSI1.png" />
-        <img src="http://i.imgur.com/jLdwSI1.png" />
-        <img src="http://i.imgur.com/jLdwSI1.png" />
-        
-      <a style="margin-left: 25px;">❯</a>  
+      <b style="margin-left: -80px;">❮</b>
+      <a href="https://paideias.github.io/sumario/">
+        <img src="http://i.imgur.com/c9GrCQ5.png" />
+        <img src="http://i.imgur.com/gtvdUWg.png" />
+        <img src="http://i.imgur.com/7uyd5AM.png" />
+        </a>
+      <b style="margin-left: 25px;">❯</b>  
       </div></div>
 
 
@@ -128,16 +115,16 @@
       <div id="capa-grande" style="background: url(http://i.imgur.com/zOGipSh.png) center no-repeat;">
 				<div class="capa-info1">Terceira edição<br> sem trocadilhos<br> com pá nem ideias</div>
         <div style="margin-left: -300px;">
-        <div class="roda"><div class="capa-fora"></div></div>
-        <div class="capa-dentro"></div></div>
+        <div class="roda"><div class="capa-fora" style="background: right url(http://i.imgur.com/TZfRX0F.png) no-repeat;"></div></div>
+        <div class="capa-dentro" style="background: url(http://i.imgur.com/EeB7tyY.png);"></div></div>
 			</div></div></a>
       
      <a href="https://paideias.github.io/sumario/"><div style="background: #e85d5d; height: 380px; padding-top: 50px; width: 1000px; margin: 80px; box-shadow: 20px 20px 40px rgba(0,0,0,0.1); ">
   		<div id="capa-grande" style="background: url(http://i.imgur.com/XW5ZIt7.png) no-repeat right;">
       <div class="capa-info2">Segunda edição<br> com muitas pás<br> de ideias</div>
        <div style="margin-left: 350px; margin-top: -40px;">
-				<div class="roda"><div class="capa-fora"></div></div>
-        <div class="capa-dentro"></div></div>
+				<div class="roda"><div class="capa-fora" style="background: right url(http://i.imgur.com/aygQPcS.png) no-repeat;"></div></div>
+        <div class="capa-dentro" style="background: url(http://i.imgur.com/tdRkqTg.png);"></div></div>
 			</div></div></a>
 
       
@@ -145,8 +132,8 @@
       <div id="capa-grande" style="background: url(http://i.imgur.com/AcA6iGE.png) center no-repeat; height: 260px;">
 				<div class="capa-info1">Primeira<br>edição cheia<br>de ideias e pá</div>
         <div style="margin-left: -50px;">
-        <div class="roda"><div class="capa-fora"></div></div>
-        <div class="capa-dentro"></div></div>
+        <div class="roda"><div class="capa-fora" style="background: right url(http://i.imgur.com/as0kl16.png) no-repeat;"></div></div>
+        <div class="capa-dentro" style="background: url(http://i.imgur.com/3FRASe8.png);"></div></div>
 			</div></div></a>
 
 
